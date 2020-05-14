@@ -89,18 +89,7 @@ $ go get github.com/docopt/docopt-go
 $ go build -o go_quiz *.go
 ```
 
-3. Prepare CSV file for quiz. The file contains two columns: `<problem_statement>, <answer>`. 
-
-For example,
-```csv
-10+4,14
-90/3,30
-who is Jeff?, Bezos
-my age?, 22
-...
-```
-
-2. Run the program as follows:
+3. Run the program as follows:
 ```
 $ go_quiz run problem.csv --timelimit=30.0
 ```
