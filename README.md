@@ -2,6 +2,9 @@
 
 [![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/quiz)
 
+## Branches
+* master - Part I & Part II exercise 
+
 ## Documentations
 
 * Overview (This README.md)
@@ -98,7 +101,7 @@ $ go_quiz run problem.csv --timelimit=30.0
 See [EXERCISE.md](docs/EXERCISE.md) for more details on the exercise.
 - [x] Part I  - Simple version, no time limit
 - [x] Part II - Adding Concurrency channel for input scan and timer
-- [x] Bonus 1 - Trimmed and cleanup string input for white prefix and trailing spaces.
+- [x] Bonus 1 - Trimmed and cleanup string input for white prefix and trailing spaces. (master branch)
 - [ ] Bonus 2 - Shuffle quiz questions
 
 ## Reference
